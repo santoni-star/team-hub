@@ -1,0 +1,89 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search...",
+    "noResults": "No results found",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "confirm": "Confirm"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signUp": "Create account",
+    "signOut": "Sign out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "magicLink": "Sign in with magic link",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "resetPassword": "Reset password",
+    "checkEmail": "Check your email for a confirmation link"
+  },
+  "company": {
+    "create": "Create company",
+    "name": "Company name",
+    "invite": "Invite team member",
+    "members": "Team members",
+    "settings": "Company settings"
+  },
+  "shifts": {
+    "title": "Shifts",
+    "schedule": "Schedule",
+    "createShift": "Create shift",
+    "myShifts": "My shifts",
+    "requestSwap": "Request swap",
+    "requestTimeOff": "Request time off",
+    "calendar": "Calendar view",
+    "list": "List view"
+  },
+  "chat": {
+    "title": "Chat",
+    "channels": "Channels",
+    "directMessages": "Direct messages",
+    "newChannel": "New channel",
+    "sendMessage": "Type a message..."
+  },
+  "polls": {
+    "title": "Polls",
+    "create": "Create poll",
+    "vote": "Vote",
+    "results": "Results",
+    "active": "Active",
+    "closed": "Closed"
+  },
+  "billing": {
+    "title": "Billing",
+    "currentPlan": "Current plan",
+    "upgrade": "Upgrade",
+    "starter": "Starter",
+    "growth": "Growth",
+    "enterprise": "Enterprise",
+    "perMonth": "/month",
+    "employeeCount": "Employees"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "overview": "Overview",
+    "analytics": "Analytics",
+    "totalEmployees": "Total employees",
+    "activeShifts": "Active shifts",
+    "openPolls": "Open polls",
+    "messages": "Messages today"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "shifts": "Shifts",
+    "chat": "Chat",
+    "polls": "Polls",
+    "tasks": "Tasks",
+    "billing": "Billing",
+    "settings": "Settings"
+  }
+}
