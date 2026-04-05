@@ -23,7 +23,7 @@ export type AppRole = 'owner' | 'admin' | 'manager' | 'employee';
 
 export interface UserProfile {
   id: string;
-  email: string;
+  user_id: string;
   full_name: string | null;
   avatar_url: string | null;
   company_id: string | null;
