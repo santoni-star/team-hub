@@ -12,7 +12,7 @@ export const chatService = {
     return data as Channel[];
   },
 
-  async createChannel(input: CreateChannelInput & { company_id: string; created_by: string }) {
+  async createChannel(input: { name: string; description?: string; is_private?: boolean; company_id: string; created_by: string }) {
     const { data, error } = await supabase
       .from('channels')
       .insert(input)

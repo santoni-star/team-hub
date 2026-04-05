@@ -12,7 +12,7 @@ export const shiftService = {
     return data;
   },
 
-  async createShift(input: CreateShiftInput & { company_id: string; created_by: string }) {
+  async createShift(input: { employee_id: string; start_time: string; end_time: string; title: string; notes?: string; company_id: string; created_by: string }) {
     const { data, error } = await supabase
       .from('shifts')
       .insert(input)
